@@ -23,6 +23,10 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
+  const isVercelDeployment = Boolean(
+    (globalThis as { process?: { env?: Record<string, string | undefined> } })
+      .process?.env?.VERCEL,
+  );
   const { locale } = await params;
 
   if (!locales.includes(locale as any)) {
@@ -40,7 +44,7 @@ export default async function LocaleLayout({
               <TopNavBar />
               <div className="flex-1">{children}</div>
               <Footer />
-              <Analytics />
+              {isVercelDeployment ? <Analytics /> : null}
             </ClientLayout>
           </Providers>
         </NextIntlClientProvider>
