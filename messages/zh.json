@@ -1,0 +1,237 @@
+{
+  "common": {
+    "resume": "简历",
+    "create": "创建",
+    "edit": "编辑",
+    "preview": "预览",
+    "download": "下载",
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确定",
+    "delete": "删除",
+    "add": "添加"
+  },
+  "nav": {
+    "createResume": "创建简历",
+    "menu": "菜单",
+    "faq": "常见问题",
+    "bugReport": "反馈问题",
+    "resetDefault": "恢复默认",
+    "language": "语言"
+  },
+  "home": {
+    "hero": {
+      "title": "几分钟内创建专业简历",
+      "subtitle": "免费、开源的简历生成器",
+      "createButton": "创建简历",
+      "noRegistration": "无需注册"
+    },
+    "features": {
+      "title": "全能简历生成工具",
+      "subtitle": "集众多强大功能于一体,助您打造专业简历,赢得面试机会",
+      "parser": {
+        "title": "简历解析",
+        "description": "我们可以解析您的PDF简历,让你编写简历更加轻松(功能优化中,即将上线)"
+      },
+      "templates": {
+        "title": "多种精美模板",
+        "description": "提供多种专业设计的简历模板,满足不同行业标准和求职申请的各种需求"
+      },
+      "responsive": {
+        "title": "响应式设计",
+        "description": "在任何设备上都能流畅工作,从手机到平板再到桌面电脑,提供优化的操作界面"
+      },
+      "security": {
+        "title": "本地数据安全",
+        "description": "您的简历数据完全存储在本地浏览器中,永远不会上传到外部服务器,确保您的隐私安全"
+      },
+      "export": {
+        "title": "快速导出下载",
+        "description": "只需一键即可导出专业高质量的PDF文件,随时准备投递您的求职申请"
+      },
+      "ats": {
+        "title": "ATS友好格式",
+        "description": "优化简历结构和格式,确保应聘者跟踪系统(ATS)能正确解析您的所有信息,提高简历通过率"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "关于ResumeToJob的Github常见Issues",
+      "items": {
+        "garbledText": {
+          "question": "为什么我的简历导出后是乱码?",
+          "answer": "没有选择正确的字体或者因为网速慢字体未加载好。请确保字体完全加载后再导出简历。"
+        },
+        "chineseFonts": {
+          "question": "为什么我的字体选项里没有中文字体?",
+          "answer": "由于中文字体较大,ResumeToJob会查看你的浏览器语言设置,如果你的浏览器语言没有包括中文,那么就不会加载中文字体。"
+        }
+      }
+    },
+    "cta": {
+      "title": "准备好创建您的简历了吗?",
+      "subtitle": "轻松创建、编辑和下载精美的专业简历,提高您的求职成功率",
+      "button": "立即开始"
+    }
+  },
+  "resumeBuilder": {
+    "edit": "编辑",
+    "preview": "预览"
+  },
+  "resumeForm": {
+    "profile": {
+      "title": "个人信息",
+      "name": "姓名",
+      "email": "邮箱",
+      "phone": "电话",
+      "url": "网址",
+      "summary": "个人简介",
+      "summaryPlaceholder": "支持Markdown，详见编辑器使用说明",
+      "location": "地址",
+      "photoUrl": "照片URL",
+      "photo": "照片",
+      "uploadProfessionalPhoto": "上传专业证件照",
+      "checkCarefully": "仔细检查，别填错",
+      "website": "个人网站",
+      "websiteExample": "如：github，博客之类的",
+      "personalPhoto": "个人照片"
+    },
+    "workExperience": {
+      "title": "工作经历",
+      "add": "添加工作经历",
+      "delete": "删除工作经历",
+      "company": "公司",
+      "position": "职位",
+      "date": "日期",
+      "responsibilities": "职责描述",
+      "placeholder": "支持Markdown，详见编辑器使用说明"
+    },
+    "education": {
+      "title": "教育经历",
+      "add": "添加教育经历",
+      "delete": "删除教育经历",
+      "school": "学校",
+      "degree": "学位",
+      "date": "日期",
+      "gpa": "GPA",
+      "descriptions": "描述",
+      "additionalInfo": "附加信息（可选）",
+      "placeholder": "支持Markdown，详见编辑器使用说明"
+    },
+    "project": {
+      "title": "项目经历",
+      "add": "添加项目",
+      "delete": "删除项目",
+      "project": "项目名称",
+      "date": "日期",
+      "descriptions": "项目描述",
+      "placeholder": "支持Markdown，详见编辑器使用说明"
+    },
+    "skills": {
+      "title": "技能",
+      "featuredSkills": "特色技能（可选）",
+      "featuredSkillsDescription": "特色技能是可选项，用于突出您的顶级技能，圆圈越多表示熟练度越高。",
+      "skill": "特色技能",
+      "rating": "评级",
+      "descriptions": "技能列表",
+      "placeholder": "支持Markdown，详见编辑器使用说明"
+    },
+    "custom": {
+      "title": "自定义部分",
+      "descriptions": "自定义描述",
+      "customContent": "自定义内容",
+      "placeholder": "支持Markdown，详见编辑器使用说明"
+    }
+  },
+  "modal": {
+    "bugReport": {
+      "title": "反馈问题",
+      "message": "如果发现bug或者你认为不好的地方,请在GitHub Issues中反馈问题。\n\n点击确定将跳转到GitHub Issues页面。"
+    },
+    "resetDefault": {
+      "title": "恢复默认",
+      "message": "是否要恢复默认,会删除所有信息,请做好备份。\n\n点击确定后将清除所有数据并刷新网页。"
+    }
+  },
+  "banner": {
+    "message": "简历数据存储在浏览器本地,以防意外情况丢失,建议使用【管理简历】功能导出保存",
+    "close": "关闭"
+  },
+  "editorInstructions": {
+    "title": "编辑器使用说明",
+    "showInstructions": "显示说明",
+    "hideInstructions": "隐藏说明",
+    "markdown": "Markdown 快捷方式",
+    "unorderedList": "输入 '- ' 或 '* ' 创建无序列表（注意后面的空格）",
+    "orderedList": "输入 '1. ' 创建有序列表（注意后面的空格）",
+    "boldText": "输入 '**文本**' 或 '__文本__' 创建粗体文本",
+    "autoList": "换行时默认会添加相同的 Markdown 列表项，按回车键可取消自动添加列表。",
+    "hyperlink": "简历支持超链接，支持以下方式（任选一种）：",
+    "hyperlinkMethod1": "网址用英文括号包裹（不要用中文）",
+    "hyperlinkMethod2": "网址两边留有空格",
+    "hint": "这些快捷方式可以帮助您更高效地格式化您的简历内容。",
+    "resumeManagement": "简历管理",
+    "resumeManagementDesc": "支持多份简历创建、切换、克隆和导入导出"
+  },
+  "resumeManager": {
+    "title": "简历管理",
+    "myResumes": "我的简历",
+    "createNew": "创建新简历",
+    "resumeTitle": "简历标题",
+    "create": "创建",
+    "cancel": "取消",
+    "clone": "克隆",
+    "delete": "删除",
+    "edit": "编辑",
+    "save": "保存",
+    "switch": "切换",
+    "search": "搜索简历...",
+    "createdAt": "创建时间",
+    "updatedAt": "更新时间",
+    "current": "当前",
+    "noResumes": "还没有简历，创建你的第一份简历吧！",
+    "confirmDelete": "确定要删除这份简历吗？此操作无法撤销。",
+    "confirmDeleteTitle": "删除简历",
+    "confirmDeleteMessage": "确定要删除简历 \"{title}\" 吗？\n\n此操作无法撤销，所有相关数据将被永久删除。",
+    "manageResumes": "管理简历",
+    "currentResume": "当前简历",
+    "notSelected": "未选择",
+    "resumesCount": "份简历",
+    "manageButton": "管理简历",
+    "quickSwitch": "快速切换",
+    "more": "更多",
+    "exportAll": "导出所有简历",
+    "importResumes": "导入简历",
+    "exportSuccess": "简历数据已成功导出！",
+    "importSuccess": "简历数据导入成功！",
+    "importError": "导入失败，请检查文件格式",
+    "noResumesToExport": "没有简历可以导出"
+  },
+  "resumeControlBar": {
+    "autoscale": "自动缩放",
+    "download": "下载简历"
+  },
+  "themeForm": {
+    "settings": "简历设置",
+    "template": "模板样式",
+    "themeColor": "主题颜色",
+    "fontFamily": "字体（仅思源黑体有中文，其它会乱码）",
+    "fontSize": "字体大小",
+    "documentSize": "文档大小"
+  },
+  "templates": {
+    "classic": "经典模板",
+    "professional": "专业模板",
+    "modern": "现代模板",
+    "elegant": "优雅模板",
+    "creative": "创意模板",
+    "tech": "科技模板",
+    "minimal": "极简模板",
+    "compact": "紧凑模板"
+  },
+  "fontSize": {
+    "compact": "紧凑",
+    "standard": "标准",
+    "large": "大号"
+  }
+}

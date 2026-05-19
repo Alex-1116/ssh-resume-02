@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "NotoSansSC";
+  src: url("https://cdn.jsdelivr.net/fontsource/fonts/noto-sans-sc@latest/chinese-simplified-400-normal.ttf");
+  font-weight: 400;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "NotoSansSC";
+  src: url("https://cdn.jsdelivr.net/fontsource/fonts/noto-sans-sc@latest/chinese-simplified-700-normal.ttf");
+  font-weight: 700;
+  font-weight: bold;
+}
